@@ -1,0 +1,223 @@
+// {
+//   "window.zoomLevel": 0,
+//   "vsicons.presets.hideFolders": true,
+//   "editor.cursorWidth": 2,
+//   "editor.multiCursorModifier": "ctrlCmd",
+//   "workbench.sideBar.location": "right",
+//   "editor.fontWeight": "500", //宽度
+//   "editor.tabSize": 2, //缩进 
+//   "editor.detectIndentation": false,
+//   "editor.lineHeight": 23, //行高
+//   "editor.fontSize": 15, //字体大小
+//   "editor.fontLigatures": true,
+//   "editor.formatOnType": true,
+//   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+//   "editor.fontLigatures": true,
+//   "editor.wordWrap": "on", //行太长自动换行
+//   "editor.cursorBlinking": "expand",
+//   "editor.formatOnPaste": true, // 编辑粘贴自动格式化
+//   "explorer.confirmDelete": false,
+//   "editor.minimap.enabled": false,
+//   "editor.formatOnPaste": true,
+//   "eslint.autoFixOnSave": true,
+//   "editor.formatOnSave": true, //ctrl + s 保存自动格式化
+//   // "editor.renderWhitespace": "all", //空格变成...
+//   "stylusSupremacy.insertColons": true, // 是否插入冒号
+//   "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+//   "stylusSupremacy.insertBraces": false, // 是否插入大括号
+//   "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+//   "stylusSupremacy.insertNewLineAroundBlocks": false,
+//   "workbench.colorTheme": "Visual Studio Light", // 两个选择器中是否换行
+//   "window.menuBarVisibility": "toggle",
+//   "workbench.activityBar.visible": true,
+//   "workbench.statusBar.visible": false,
+
+
+// }
+{
+  
+  "typescript.validate.enable": false,// 防止flow爆红
+  "javascript.validate.enable": false,// 防止flow爆红
+  "editor.cursorWidth": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.sideBar.location": "right",
+  "editor.wordWrap": "on", //行太长自动换行
+  "editor.fontWeight": "500", //宽度
+  "editor.tabSize": 2, //缩进 
+  "editor.detectIndentation": false,
+  "editor.lineHeight": 22, //行高
+  "editor.fontSize": 18, //字体大小
+  // "editor.fontFamily": "LZTueYuan Inconsolata", //幼圆雅黑
+  "editor.fontFamily": "LZ YueYuan Inconsolata",
+  "editor.renderWhitespace": "none", //空格变成..
+  "stylusSupremacy.insertColons": true, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "powermode.enabled": true,
+  "powermode.enableShake": false, // 这个代表桌面是否震动
+  "powermode.presets": "flames",
+  "editor.lineHighlightBackground": "red",
+  "workbench.colorCustomizations": {
+    "[Atom One Light]": {
+      "foreground": "#75a478",
+      // "editor.background": "#c8e6c9", // 原来背景色
+      "editor.background": "#c6d7bc", // wsp背景色
+      "foreground": "#519657",
+      "editor.lineHighlightBackground": "#dcedc8",
+      "editor.selectionBackground": "#f0f4c3",
+      "editorWidget.background": "#c6d7bc",
+      "editorHoverWidget.background": "#c6d7bc",
+      "editorHoverWidget.border": "#a5d6a7",
+      "editorLineNumber.foreground": "#519657",
+      "editorWhitespace.foreground": "#161616",
+      "editorSuggestWidget.background": "#c6d7bc",
+      "editorSuggestWidget.border": "#a5d6a7",
+      "editorSuggestWidget.foreground": "#338a3e",
+      "editorSuggestWidget.highlightForeground": "#338a3e",
+      "editorSuggestWidget.selectedBackground": "#a5d6a7",
+      "activityBar.background": "#c6d7bc",
+      "activityBar.foreground": "#519657",
+      "activityBarBadge.background": "#519657",
+      "activityBarBadge.foreground": "#FFFFFF",
+      "editorLineNumber.activeForeground": "#519657",
+      "input.background": "#c6d7bc",
+      "input.border": "#c5e1a5",
+      "focusBorder": "#c5e1a5",
+      "sideBar.background": "#c6d7bc",
+      "sideBarSectionHeader.background": "#c6d7bc",
+      "tab.activeBackground": "#c6d7bc",
+      "tab.activeForeground": "#519657",
+      "tab.inactiveBackground": "#c6d7bc",
+      "tab.inactiveForeground": "#97b498",
+      "tab.border": "#c6d7bc",
+      "badge.background": "#519657",
+      "statusBar.background": "#c6d7bc",
+      "statusBar.foreground": "#519657",
+      "statusBarItem.hoverBackground": "#dcedc8",
+      "statusBar.noFolderBackground": "#519657",
+      "statusBar.debuggingBackground": "#519657",
+      "statusBar.debuggingForeground": "#00701a",
+      "debugToolBar.background": "#a5d6a7",
+      "editorGroupHeader.tabsBackground": "#c6d7bc",
+      "button.background": "#519657",
+      "button.foreground": "#FFFFFF",
+      "button.hoverBackground": "#519657",
+      "extensionButton.prominentBackground": "#3BBA54",
+      "extensionButton.prominentHoverBackground": "#4CC263",
+      "scrollbar.shadow": "#a5d6a7",
+      "scrollbarSlider.background": "#a5d6a7",
+      "scrollbarSlider.hoverBackground": "#81c784",
+      "scrollbarSlider.activeBackground": "#81c784",
+      "list.activeSelectionBackground": "#dcedc8",
+      "list.activeSelectionForeground": "#519657",
+      "list.inactiveSelectionBackground": "#dcedc8",
+      "list.inactiveSelectionForeground": "#519657",
+      "list.hoverBackground": "#dcedc8",
+      "list.highlightForeground": "#dcedc8",
+      "dropdown.background": "#c6d7bc",
+      "dropdown.border": "#c5e1a5",
+      "titleBar.activeBackground": "#c6d7bc",
+      "titleBar.activeForeground": "#519657",
+      "titleBar.inactiveBackground": "#c6d7bc",
+      "titleBar.inactiveForeground": "#519657"
+    },
+  },
+  "editor.tokenColorCustomizations": {
+    "[Atom One Light]": {
+      "textMateRules": [{
+          "name": "Comment",
+          "scope": [
+            "comment"
+          ],
+          "settings": {
+            "foreground": "#97b498",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "String",
+          "scope": [
+            "string"
+          ],
+          "settings": {
+            "foreground": "#338a3e"
+          }
+        },
+        {
+          "name": "Variable",
+          "scope": [
+            "variable"
+          ],
+          "settings": {
+            "foreground": "#c51162"
+          }
+        },
+        {
+          "name": "[VSCODE-CUSTOM] PHP Punctuation Variable Definition",
+          "scope": "punctuation.definition.variable.php",
+          "settings": {
+            "foreground": "#c51162"
+          }
+        },
+      ]
+    }
+  },
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": -1,
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+  // 是否开启eslint检测
+  "eslint.enable": true,
+  // 文件保存时，是否自动根据eslint进行格式化
+  "eslint.autoFixOnSave": true,
+  // eslint配置文件
+  "eslint.options": {
+    "configFile": "E:/aaaworkspace/all-template/template-pc-vue-elementui/.eslintrc.js",
+    "plugins": ["html"]
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      // 保存文件时，自动格式化
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "typescript",
+    "typescriptreact"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "gitlens.advanced.messages": {
+    "suppressSupportGitLensNotification": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.minimap.enabled": false,
+  "debug.openDebug": "neverOpen",
+  "debug.showInStatusBar": "never",
+  "debug.internalConsoleOptions": "neverOpen",
+  "scm.diffDecorations": "overview",
+  "workbench.colorTheme": "Atom One Light",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.rendererType": "dom",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
